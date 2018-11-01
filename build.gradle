@@ -8,7 +8,6 @@ plugins {
 }
 
 apply plugin:"application"
-// apply plugin:"com.gorylenko.gradle-git-properties"
 
 version "0.1"
 group "com.example"
@@ -45,7 +44,6 @@ dependencies {
     testImplementation "org.jetbrains.spek:spek-api:1.1.5"
     testRuntime "org.junit.jupiter:junit-jupiter-engine:5.1.0"
     testRuntime "org.jetbrains.spek:spek-junit-platform-engine:1.1.5"
-    // implementation "gradle.plugin.com.gorylenko.gradle-git-properties:gradle-git-properties:2.0.0-beta1"
 }
 
 shadowJar {
