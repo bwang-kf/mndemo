@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: mndemo
+
+endpoints:
+  info:
+    enabled: true
+    sensitive: false
